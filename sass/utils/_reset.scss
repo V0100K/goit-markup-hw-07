@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list h3 {
+    color: var(--title-text-color);
+}
+
+.list,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}

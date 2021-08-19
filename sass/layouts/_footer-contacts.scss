@@ -1,0 +1,19 @@
+.footer-contacts a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+
+    & p {
+        margin-bottom: 9px;
+        color: var(--wite-color);
+    }
+}
+
+.footer-list {
+    & .footer-item + .footer-item {
+        margin-top: 9px;
+    }
+}
