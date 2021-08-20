@@ -1,22 +1,9 @@
 /*----------------------icon sotial  footer---*/
 
-.footer-container {
-    display: flex; /*footer left i footer social in line*/
-    align-items: baseline;
-}
-
 .footer-social {
     margin-left: 70px;
 }
-.footer-ico-link {
+.bgc {
     background: rgba(255, 255, 255, 0.1); /*color and bg color sotial*/
     fill: white;
-}
-.footer-social h3 {
-    color: var(--wite-color);
-    font-size: 14px;
-    line-height: 1.1;
-
-    text-transform: uppercase;
-    margin-bottom: 20px;
 }

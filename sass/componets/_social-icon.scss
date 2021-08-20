@@ -1,5 +1,5 @@
 /*----------------------icon sotial team--===============================-*/
-.team-social-list {
+.social-list {
     display: flex; /*  в строку иконки */
 
     & > li:not(:last-child) {
@@ -7,11 +7,11 @@
     }
 }
 
-.social-icon {
+.social-list__item_link-icon {
     fill: inherit;
 }
 
-.social-icon-team {
+.social-list__item_link {
     display: flex;
     width: 44px;
     height: 44px;
