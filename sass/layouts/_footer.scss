@@ -3,6 +3,8 @@ footer {
     font-style: normal;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex; /*footer left i footer social in line*/
+    align-items: baseline;
 }
 .footer-container {
     display: flex; /*footer left i footer social in line*/

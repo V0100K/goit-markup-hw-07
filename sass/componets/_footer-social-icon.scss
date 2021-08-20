@@ -2,6 +2,12 @@
 
 .footer-social {
     margin-left: 70px;
+    & h3 {
+        text-transform: uppercase;
+        color: var(--wite-color);
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
 }
 .bgc {
     background: rgba(255, 255, 255, 0.1); /*color and bg color sotial*/

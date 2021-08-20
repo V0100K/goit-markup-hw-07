@@ -1,11 +1,7 @@
 /* --------------- Секция отправки телеграммм------------------- */
 
-.footer-submit {
+.footer-submit__input {
     margin-left: 93px;
-}
-
-.footer-submit-input {
-    color: var(--wite-color);
 }
 
 .footer-submit-title {
@@ -13,13 +9,14 @@
     display: block;
     text-transform: uppercase;
     margin-bottom: 20px;
+    color: var(--wite-color);
 }
 
-.footer-submit-input-wrapper {
+.footer-submit__input_wrapper {
     display: flex;
 }
 
-.footer-form-input {
+.footer-submit__input_form {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -30,7 +27,7 @@
     font-size: 16px;
 }
 
-.footer-form-btn {
+.footer-submit__input_btn {
     display: inline-flex;
     align-items: center;
     min-width: 200px;

@@ -113,6 +113,13 @@ a {
   margin-left: 70px;
 }
 
+.footer-social h3 {
+  text-transform: uppercase;
+  color: var(--wite-color);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
 .bgc {
   background: rgba(255, 255, 255, 0.1);
   /*color and bg color sotial*/
@@ -120,12 +127,8 @@ a {
 }
 
 /* --------------- Секция отправки телеграммм------------------- */
-.footer-submit {
+.footer-submit__input {
   margin-left: 93px;
-}
-
-.footer-submit-input {
-  color: var(--wite-color);
 }
 
 .footer-submit-title {
@@ -133,13 +136,14 @@ a {
   display: block;
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: var(--wite-color);
 }
 
-.footer-submit-input-wrapper {
+.footer-submit__input_wrapper {
   display: flex;
 }
 
-.footer-form-input {
+.footer-submit__input_form {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -150,7 +154,7 @@ a {
   font-size: 16px;
 }
 
-.footer-form-btn {
+.footer-submit__input_btn {
   display: inline-flex;
   align-items: center;
   min-width: 200px;
@@ -169,7 +173,7 @@ a {
   border-color: var(--accent-text-color);
 }
 
-.footer-form-btn:hover, .footer-form-btn:focus {
+.footer-submit__input_btn:hover, .footer-submit__input_btn:focus {
   background-color: #188ce8;
 }
 
@@ -362,7 +366,7 @@ a {
   padding-bottom: 0;
 }
 
-.header-logo {
+.logo {
   margin-right: 93px;
   color: #000000;
   font-family: Raleway;
@@ -665,6 +669,9 @@ footer {
   font-style: normal;
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  /*footer left i footer social in line*/
+  align-items: baseline;
 }
 
 .footer-container {
@@ -673,14 +680,9 @@ footer {
   align-items: baseline;
 }
 
-.footer-logo {
+.footer-left__logo {
   display: block;
   color: var(--wite-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
   margin-bottom: 20px;
 }
 
@@ -688,7 +690,7 @@ footer {
   color: var(--accent-text-color);
 }
 
-.footer-contacts a {
+.fofooter-left__contacts a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
@@ -702,7 +704,7 @@ address p {
   color: var(--wite-color);
 }
 
-.footer-list .footer-item + .footer-item {
+.footer-list .footer-list_item + .footer-list_item {
   margin-top: 9px;
 }
 
